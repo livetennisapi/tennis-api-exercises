@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these exercises or their fixtures in a course, a paper or a syllabus, please cite them as below."
+title: "Tennis API exercises: graded coding exercises for a real JSON API"
+type: software
+version: 1.0.0
+date-released: "2026-10-23"
+authors:
+  - name: "Live Tennis API"
+    website: "https://livetennisapi.com"
+    email: "hello@livetennisapi.com"
+repository-code: "https://gitlab.com/livetennisapi/tennis-api-exercises"
+url: "https://docs.livetennisapi.com"
+license: MIT
+abstract: >-
+  Eight graded exercises in Python and JavaScript that teach students to call
+  a real JSON API, read nested data, handle errors and rate limits, and stay
+  inside a daily request quota. Tests run offline against recorded responses
+  from the free plan of Live Tennis API. Code is MIT. Fixtures are CC BY 4.0.
+keywords:
+  - teaching
+  - programming exercises
+  - REST API
+  - JSON
+  - Python
+  - JavaScript
+  - tennis
+  - sports data

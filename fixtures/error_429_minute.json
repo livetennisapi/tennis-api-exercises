@@ -1,0 +1,23 @@
+{
+ "source": "built by hand from openapi.yaml 1.13.68, because the recording key was not on the FREE plan. Codes and field names follow the spec. Values the spec does not fix are stand-ins.",
+ "request": {
+  "method": "GET",
+  "path": "/matches?status=live&limit=200",
+  "auth": "header"
+ },
+ "response": {
+  "status": 429,
+  "headers": {
+   "retry-after": "12",
+   "x-ratelimit-limit": "30",
+   "x-ratelimit-remaining": "0",
+   "x-ratelimit-reset": "1792764960"
+  },
+  "body": {
+   "error": "rate_limited",
+   "tier": "basic",
+   "price": "$9.99/mo",
+   "upgrade_url": "https://livetennisapi.com/pricing"
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "source": "recorded from the live API on 2026-10-23",
+ "request": {
+  "method": "GET",
+  "path": "/players?search=Jannik%20Sinner&limit=10",
+  "auth": "header"
+ },
+ "response": {
+  "status": 200,
+  "headers": {
+   "x-ratelimit-limit": "",
+   "x-ratelimit-remaining": "",
+   "x-ratelimit-reset": ""
+  },
+  "body": {
+   "data": [
+    {
+     "archive_player_id": 206173,
+     "backhand": null,
+     "birthday": "2001-08-16",
+     "country": "ita",
+     "data_completeness": {
+      "known": 4,
+      "missing": [
+       "backhand"
+      ],
+      "of": 5
+     },
+     "hand": "R",
+     "id": 34,
+     "is_doubles_team": false,
+     "itf_ranking": null,
+     "name": "Jannik Sinner",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": 1,
+     "ranking_checked_at": "2026-10-23T12:41:37.986850Z",
+     "ranking_movement": "same",
+     "ranking_points": 10950,
+     "ranking_status": "ranked",
+     "tour": "atp"
+    }
+   ],
+   "meta": {
+    "count": 1,
+    "has_more": false,
+    "limit": 10,
+    "offset": 0,
+    "total": 1
+   }
+  }
+ }
+}

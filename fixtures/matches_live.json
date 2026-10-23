@@ -1,0 +1,3578 @@
+{
+ "source": "recorded from the live API on 2026-10-23",
+ "request": {
+  "method": "GET",
+  "path": "/matches?status=live&limit=200",
+  "auth": "header"
+ },
+ "response": {
+  "status": 200,
+  "headers": {
+   "x-ratelimit-limit": "",
+   "x-ratelimit-remaining": "",
+   "x-ratelimit-reset": ""
+  },
+  "body": {
+   "data": [
+    {
+     "court": null,
+     "created_at": "2026-10-22T11:28:16.428353Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": true,
+     "has_market": true,
+     "id": 208113,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T09:37:36.239252Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 209506,
+       "backhand": null,
+       "birthday": "1999-07-26",
+       "country": "ita",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "backhand"
+        ],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 306,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Francesco Forti",
+       "ranking": 329,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 163,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": 106177,
+       "backhand": 1,
+       "birthday": "1993-04-30",
+       "country": "esp",
+       "data_completeness": {
+        "known": 5,
+        "missing": [],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 555,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Oriol Roca Batalla",
+       "ranking": 304,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 178,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "Florence - Quarter-finals",
+     "round_code": "QF",
+     "scheduled_time": "2026-10-23T09:40:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T12:57:25.016789Z",
+      "age_seconds": 4821,
+      "changing_sources_count": 0,
+      "corroborated": true,
+      "corroborated_age_seconds": 4301,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "default",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        2,
+        2
+       ],
+       [
+        6,
+        2
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 1147,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T12:57:24.221360Z",
+      "sequence": 80,
+      "server": 1,
+      "sets": [
+       0,
+       1
+      ],
+      "sources_count": 0,
+      "stale": true,
+      "timestamp": "2026-10-23T13:58:38.556966Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": null,
+     "tier_source": null,
+     "tour": "challenger",
+     "tournament": "Florence (Italy) - Qualification",
+     "tournament_id": "14764",
+     "updated_at": "2026-10-23T14:16:37.573689Z"
+    },
+    {
+     "court": "Court 14",
+     "created_at": "2026-10-23T10:13:25.771287Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "women",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209382,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T12:19:19.733037Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": "1996-04-10",
+       "country": "cro",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 1902,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Iva Primorac",
+       "ranking": 413,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 146,
+       "ranking_status": "ranked",
+       "tour": null
+      },
+      "p2": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": "2005-04-28",
+       "country": "pol",
+       "data_completeness": {
+        "known": 2,
+        "missing": [
+         "backhand",
+         "hand",
+         "ranking"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 31039,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Gorska",
+       "ranking": null,
+       "ranking_checked_at": "2026-10-23T14:11:35.089286Z",
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": "unverified",
+       "tour": "wta"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "Round of 16",
+     "round_code": "R16",
+     "scheduled_time": "2026-10-23T10:15:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:15:55.912612Z",
+      "age_seconds": 110,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 7,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        6,
+        4
+       ],
+       [
+        7,
+        5
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 3,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T14:15:53.934531Z",
+      "sequence": 38,
+      "server": 1,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:42.649838Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_w15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "ITF W15 Bol 2 Women",
+     "tournament_id": "11082",
+     "updated_at": "2026-10-23T14:16:34.329823Z"
+    },
+    {
+     "court": "Court 2",
+     "created_at": "2026-10-23T12:34:00.970729Z",
+     "draw": "doubles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209420,
+     "indoor": false,
+     "is_doubles": true,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:24:47.482867Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": null,
+       "data_completeness": {
+        "known": null,
+        "missing": [],
+        "note": "doubles team — per-player profile fields do not apply",
+        "of": null
+       },
+       "hand": null,
+       "id": 40049,
+       "is_doubles_team": true,
+       "itf_ranking": null,
+       "name": "Alexander Chang / Michael Wright",
+       "ranking": null,
+       "ranking_checked_at": null,
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": null,
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": null,
+       "data_completeness": {
+        "known": null,
+        "missing": [],
+        "note": "doubles team — per-player profile fields do not apply",
+        "of": null
+       },
+       "hand": null,
+       "id": 42464,
+       "is_doubles_team": true,
+       "itf_ranking": null,
+       "name": "Matteo Gribaldo / Raffaele Ciurnelli",
+       "ranking": null,
+       "ranking_checked_at": null,
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": null,
+       "tour": null
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "Final",
+     "round_code": "F",
+     "scheduled_time": "2026-10-23T11:24:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:04.407930Z",
+      "age_seconds": 42,
+      "changing_sources_count": 1,
+      "corroborated": false,
+      "corroborated_age_seconds": null,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "match_tiebreak"
+      },
+      "games": [
+       [
+        7,
+        1
+       ],
+       [
+        5,
+        3
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 0,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T14:17:04.324807Z",
+      "sequence": 91,
+      "server": 1,
+      "sets": [
+       1,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:45.878656Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_m25",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "ITF M25 Santa Margherita di Pula 11 Men Doubles",
+     "tournament_id": "8094",
+     "updated_at": "2026-10-23T14:16:34.267750Z"
+    },
+    {
+     "court": null,
+     "created_at": "2026-10-23T11:32:56.231412Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "women",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209413,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T12:16:30.744852Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": "1996-04-10",
+       "country": "cro",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 1902,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Iva Primorac",
+       "ranking": 413,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 146,
+       "ranking_status": "ranked",
+       "tour": null
+      },
+      "p2": {
+       "archive_player_id": 239484,
+       "backhand": null,
+       "birthday": "2005-04-28",
+       "country": "pol",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 3791,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Daria Gorska",
+       "ranking": 1088,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 14,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "W15 Bol 2 - 1/8-finals",
+     "round_code": "R16",
+     "scheduled_time": "2026-10-23T11:30:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:22.342357Z",
+      "age_seconds": 24,
+      "changing_sources_count": 1,
+      "corroborated": false,
+      "corroborated_age_seconds": null,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        6,
+        4
+       ],
+       [
+        7,
+        5
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 6,
+      "origin": "observed",
+      "points": [
+       "30",
+       "30"
+      ],
+      "received_at": "2026-10-23T14:17:21.937998Z",
+      "sequence": 156,
+      "server": 2,
+      "sets": [
+       0,
+       1
+      ],
+      "sources_count": 1,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:39.654108Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_w15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "W15 Bol 2",
+     "tournament_id": "11082",
+     "updated_at": "2026-10-23T14:16:41.172432Z"
+    },
+    {
+     "court": "Court 16",
+     "created_at": "2026-10-23T13:36:22.945001Z",
+     "draw": "doubles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209438,
+     "indoor": false,
+     "is_doubles": true,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:44:21.082162Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": null,
+       "data_completeness": {
+        "known": null,
+        "missing": [],
+        "note": "doubles team — per-player profile fields do not apply",
+        "of": null
+       },
+       "hand": null,
+       "id": 3554,
+       "is_doubles_team": true,
+       "itf_ranking": null,
+       "name": "Goncalo Da Rosa Castro / Salvador Monteiro",
+       "ranking": null,
+       "ranking_checked_at": null,
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": null,
+       "tour": null
+      },
+      "p2": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": null,
+       "data_completeness": {
+        "known": null,
+        "missing": [],
+        "note": "doubles team — per-player profile fields do not apply",
+        "of": null
+       },
+       "hand": null,
+       "id": 3623,
+       "is_doubles_team": true,
+       "itf_ranking": null,
+       "name": "Josip Simundza / Viacheslav Bielinskyi",
+       "ranking": null,
+       "ranking_checked_at": null,
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": null,
+       "tour": null
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "Quarterfinals",
+     "round_code": "QF",
+     "scheduled_time": "2026-10-23T11:42:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:16:10.608953Z",
+      "age_seconds": 95,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 3,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "match_tiebreak"
+      },
+      "games": [
+       [
+        5
+       ],
+       [
+        5
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 3,
+      "origin": "observed",
+      "points": [
+       "30",
+       "40"
+      ],
+      "received_at": "2026-10-23T14:16:10.511842Z",
+      "sequence": 20,
+      "server": 2,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:42.084149Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_m15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "ITF M15 Bol 2 Men Doubles",
+     "tournament_id": "11083",
+     "updated_at": "2026-10-23T14:16:34.067706Z"
+    },
+    {
+     "court": "Court 3",
+     "created_at": "2026-10-23T09:27:44.795522Z",
+     "draw": "singles",
+     "event_status": "Finished",
+     "event_status_updated_at": "2026-10-23T14:13:30.520798Z",
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209377,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T12:03:05.199717Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 144972,
+       "backhand": 2,
+       "birthday": "1998-08-08",
+       "country": "fra",
+       "data_completeness": {
+        "known": 5,
+        "missing": [],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 857,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Geoffrey Blancaneaux",
+       "ranking": 446,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 105,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": 212294,
+       "backhand": null,
+       "birthday": "2008-01-03",
+       "country": "rou",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 5550,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Matei Todoran",
+       "ranking": 1574,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 4,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "M15 Bol 2 - 1/8-finals",
+     "round_code": "R16",
+     "scheduled_time": "2026-10-23T11:50:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:15:12.617635Z",
+      "age_seconds": 153,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 110,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        6,
+        5
+       ],
+       [
+        4,
+        3
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 110,
+      "origin": "observed",
+      "points": [
+       "30",
+       "15"
+      ],
+      "received_at": "2026-10-23T14:15:12.157753Z",
+      "sequence": 142,
+      "server": 1,
+      "sets": [
+       1,
+       0
+      ],
+      "sources_count": 0,
+      "stale": true,
+      "timestamp": "2026-10-23T14:15:47.040668Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_m15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "M15 Bol 2",
+     "tournament_id": "11081",
+     "updated_at": "2026-10-23T14:16:40.002412Z"
+    },
+    {
+     "court": "Court 10",
+     "created_at": "2026-10-23T10:02:35.147358Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "women",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209381,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:12:37.773385Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": "2002-09-30",
+       "country": "cro",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "backhand"
+        ],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 753,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Tara Wuerth",
+       "ranking": 614,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "up",
+       "ranking_points": 72,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      },
+      "p2": {
+       "archive_player_id": 222177,
+       "backhand": null,
+       "birthday": "2003-03-24",
+       "country": "bih",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 2540,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Sara Mikaca",
+       "ranking": 809,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 40,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "W15 Bol 2 - 1/8-finals",
+     "round_code": "R16",
+     "scheduled_time": "2026-10-23T12:00:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:16.876641Z",
+      "age_seconds": 29,
+      "changing_sources_count": 1,
+      "corroborated": false,
+      "corroborated_age_seconds": null,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        6,
+        2
+       ],
+       [
+        1,
+        3
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 3,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T14:17:16.629538Z",
+      "sequence": 91,
+      "server": 1,
+      "sets": [
+       1,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:42.885490Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_w15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "W15 Bol 2",
+     "tournament_id": "11082",
+     "updated_at": "2026-10-23T14:16:41.227662Z"
+    },
+    {
+     "court": null,
+     "created_at": "2026-10-21T21:52:09.056791Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": true,
+     "has_market": true,
+     "id": 207981,
+     "indoor": null,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T12:03:46.356875Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 126205,
+       "backhand": null,
+       "birthday": "1997-05-17",
+       "country": "usa",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "backhand"
+        ],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 19,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Tommy Paul",
+       "ranking": 15,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "up",
+       "ranking_points": 2575,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": 144895,
+       "backhand": 2,
+       "birthday": "1999-04-19",
+       "country": "fra",
+       "data_completeness": {
+        "known": 5,
+        "missing": [],
+        "of": 5
+       },
+       "hand": "L",
+       "id": 33,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Corentin Moutet",
+       "ranking": 94,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 640,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "ATP Lyon - Quarter-finals",
+     "round_code": "QF",
+     "scheduled_time": "2026-10-23T12:10:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:40.676343Z",
+      "age_seconds": 5,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 5,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "default",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        6,
+        3,
+        2
+       ],
+       [
+        4,
+        6,
+        0
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 5,
+      "origin": "observed",
+      "points": [
+       "0",
+       "15"
+      ],
+      "received_at": "2026-10-23T14:17:40.274467Z",
+      "sequence": 163,
+      "server": 2,
+      "sets": [
+       1,
+       1
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:40.676342Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": null,
+     "tier_source": null,
+     "tour": "atp",
+     "tournament": "Lyon (France)",
+     "tournament_id": "14767",
+     "updated_at": "2026-10-23T14:16:37.189039Z"
+    },
+    {
+     "court": "Court 5",
+     "created_at": "2026-10-23T11:05:47.569144Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209393,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T12:41:49.267951Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": "2004-07-05",
+       "country": "aut",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "backhand"
+        ],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 1040,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Matthias Ujvary",
+       "ranking": 1029,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 18,
+       "ranking_status": "ranked",
+       "tour": null
+      },
+      "p2": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": "2006-04-03",
+       "country": "aut",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 1056,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Nico Hipfl",
+       "ranking": 737,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 42,
+       "ranking_status": "ranked",
+       "tour": null
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "M15 Bol 2 - 1/8-finals",
+     "round_code": "R16",
+     "scheduled_time": "2026-10-23T12:30:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:16:36.375887Z",
+      "age_seconds": 70,
+      "changing_sources_count": 1,
+      "corroborated": false,
+      "corroborated_age_seconds": null,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        6,
+        4,
+        0
+       ],
+       [
+        4,
+        6,
+        0
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 2,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T14:16:35.800681Z",
+      "sequence": 122,
+      "server": 2,
+      "sets": [
+       1,
+       1
+      ],
+      "sources_count": 1,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:44.285311Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_m15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "M15 Bol 2",
+     "tournament_id": "11081",
+     "updated_at": "2026-10-23T14:16:40.017311Z"
+    },
+    {
+     "court": "Center Court",
+     "created_at": "2026-10-22T17:30:28.642306Z",
+     "draw": "doubles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 208222,
+     "indoor": false,
+     "is_doubles": true,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T12:45:32.023937Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": null,
+       "data_completeness": {
+        "known": null,
+        "missing": [],
+        "note": "doubles team — per-player profile fields do not apply",
+        "of": null
+       },
+       "hand": null,
+       "id": 42034,
+       "is_doubles_team": true,
+       "itf_ranking": null,
+       "name": "Bertrand / Kris Van Wyk",
+       "ranking": null,
+       "ranking_checked_at": null,
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": null,
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": null,
+       "data_completeness": {
+        "known": null,
+        "missing": [],
+        "note": "doubles team — per-player profile fields do not apply",
+        "of": null
+       },
+       "hand": null,
+       "id": 42389,
+       "is_doubles_team": true,
+       "itf_ranking": null,
+       "name": "Manuel / Smiej",
+       "ranking": null,
+       "ranking_checked_at": null,
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": null,
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "M15 Monastir 36 - Semi-finals",
+     "round_code": "SF",
+     "scheduled_time": "2026-10-23T12:30:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:17.401894Z",
+      "age_seconds": 29,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 4,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "match_tiebreak"
+      },
+      "games": [
+       [
+        7,
+        5
+       ],
+       [
+        5,
+        6
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 3,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T14:17:17.223958Z",
+      "sequence": 128,
+      "server": 1,
+      "sets": [
+       1,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:42.895488Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "hard",
+     "tier": "itf_m15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "M15 Monastir 36",
+     "tournament_id": "4596",
+     "updated_at": "2026-10-23T14:16:42.447287Z"
+    },
+    {
+     "court": "Court 20",
+     "created_at": "2026-10-23T10:44:18.506580Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "women",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209391,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:14:24.341889Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 252571,
+       "backhand": null,
+       "birthday": "2005-06-02",
+       "country": "ger",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 11267,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Anna Petkovic",
+       "ranking": 735,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 50,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      },
+      "p2": {
+       "archive_player_id": 249669,
+       "backhand": null,
+       "birthday": "2006-05-01",
+       "country": "hun",
+       "data_completeness": {
+        "known": 2,
+        "missing": [
+         "backhand",
+         "hand",
+         "ranking"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 13133,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Viktoria Varga",
+       "ranking": null,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": "unranked",
+       "tour": "wta"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "W15 Bol 2 - 1/8-finals",
+     "round_code": "R16",
+     "scheduled_time": "2026-10-23T12:45:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:44.315849Z",
+      "age_seconds": 2,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 1,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        3,
+        0
+       ],
+       [
+        6,
+        1
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 1,
+      "origin": "observed",
+      "points": [
+       "15",
+       "40"
+      ],
+      "received_at": "2026-10-23T14:17:44.039029Z",
+      "sequence": 74,
+      "server": 1,
+      "sets": [
+       0,
+       1
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:44.315848Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_w15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "W15 Bol 2",
+     "tournament_id": "11082",
+     "updated_at": "2026-10-23T14:16:41.249735Z"
+    },
+    {
+     "court": null,
+     "created_at": "2026-10-23T13:04:01.410823Z",
+     "draw": null,
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": null,
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209429,
+     "indoor": null,
+     "is_doubles": false,
+     "is_qualifying": null,
+     "live_at": "2026-10-23T13:04:01.408001Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 241730,
+       "backhand": null,
+       "birthday": "2003-10-15",
+       "country": "deu",
+       "data_completeness": {
+        "known": 2,
+        "missing": [
+         "backhand",
+         "hand",
+         "ranking"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 12528,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Leandra Nizetic",
+       "ranking": null,
+       "ranking_checked_at": "2026-10-23T14:11:35.089286Z",
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": "unverified",
+       "tour": "wta"
+      },
+      "p2": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": "2008-01-01",
+       "country": "MDA",
+       "data_completeness": {
+        "known": 2,
+        "missing": [
+         "backhand",
+         "hand",
+         "ranking"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 39438,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Iana Semichina",
+       "ranking": null,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": "unranked",
+       "tour": "wta"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": null,
+     "round_code": null,
+     "scheduled_time": "2026-10-23T12:50:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:13:17.126857Z",
+      "age_seconds": 269,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 160,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "default",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        4,
+        1
+       ],
+       [
+        6,
+        0
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 3,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T14:13:14.558544Z",
+      "sequence": 55,
+      "server": 1,
+      "sets": [
+       0,
+       1
+      ],
+      "sources_count": 1,
+      "stale": true,
+      "timestamp": "2026-10-23T14:17:42.779638Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": null,
+     "tier": "utr",
+     "tier_source": "name",
+     "tour": null,
+     "tournament": "UTR PTT Carvoeiro Women +H 07, Group A",
+     "tournament_id": null,
+     "updated_at": "2026-10-23T14:16:34.619947Z"
+    },
+    {
+     "court": "Court 11",
+     "created_at": "2026-10-23T11:05:47.939616Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209394,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:19:40.683488Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 202148,
+       "backhand": null,
+       "birthday": "1998-06-27",
+       "country": "ned",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "backhand"
+        ],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 553,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Michiel De Krom",
+       "ranking": 807,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "up",
+       "ranking_points": 35,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": 213048,
+       "backhand": null,
+       "birthday": "2007-06-04",
+       "country": "pol",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 2147,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Alan Wazny",
+       "ranking": 818,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 34,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "M15 Bol 2 - 1/8-finals",
+     "round_code": "R16",
+     "scheduled_time": "2026-10-23T13:00:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:06.904130Z",
+      "age_seconds": 39,
+      "changing_sources_count": 1,
+      "corroborated": false,
+      "corroborated_age_seconds": null,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        3
+       ],
+       [
+        5
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 4,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T14:17:06.813356Z",
+      "sequence": 62,
+      "server": 1,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:42.210467Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_m15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "M15 Bol 2",
+     "tournament_id": "11081",
+     "updated_at": "2026-10-23T14:16:40.026458Z"
+    },
+    {
+     "court": null,
+     "created_at": "2026-10-23T13:14:26.299033Z",
+     "draw": null,
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": null,
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209431,
+     "indoor": null,
+     "is_doubles": false,
+     "is_qualifying": null,
+     "live_at": "2026-10-23T13:14:26.298281Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 215349,
+       "backhand": null,
+       "birthday": "1998-02-23",
+       "country": "nld",
+       "data_completeness": {
+        "known": 2,
+        "missing": [
+         "backhand",
+         "hand",
+         "ranking"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 12531,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Nina Kruijer",
+       "ranking": null,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": "unranked",
+       "tour": "wta"
+      },
+      "p2": {
+       "archive_player_id": 260596,
+       "backhand": null,
+       "birthday": "2002-11-23",
+       "country": "gbr",
+       "data_completeness": {
+        "known": 2,
+        "missing": [
+         "backhand",
+         "hand",
+         "ranking"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 33176,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Francesca Franchi",
+       "ranking": null,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": "unranked",
+       "tour": "wta"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": null,
+     "round_code": null,
+     "scheduled_time": "2026-10-23T13:05:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:13:17.357813Z",
+      "age_seconds": 269,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 172,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "default",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        6,
+        2
+       ],
+       [
+        4,
+        1
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 3,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T14:13:14.558544Z",
+      "sequence": 60,
+      "server": 1,
+      "sets": [
+       1,
+       0
+      ],
+      "sources_count": 1,
+      "stale": true,
+      "timestamp": "2026-10-23T14:17:42.786632Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": null,
+     "tier": "utr",
+     "tier_source": "name",
+     "tour": null,
+     "tournament": "UTR PTT Carvoeiro Women +H 07, Group A",
+     "tournament_id": null,
+     "updated_at": "2026-10-23T14:16:34.629519Z"
+    },
+    {
+     "court": "Centre Court",
+     "created_at": "2026-10-22T18:22:48.586593Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "women",
+     "has_analysis": false,
+     "has_market": true,
+     "id": 208245,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:14:24.544371Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 215480,
+       "backhand": null,
+       "birthday": "1999-07-05",
+       "country": "ned",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "backhand"
+        ],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 719,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Suzan Lamens",
+       "ranking": 245,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "up",
+       "ranking_points": 309,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      },
+      "p2": {
+       "archive_player_id": 220550,
+       "backhand": null,
+       "birthday": "2000-12-16",
+       "country": "usa",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "backhand"
+        ],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 2500,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Dalayna Hewitt",
+       "ranking": 616,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "up",
+       "ranking_points": 72,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "W100 Wrexham - Quarter-finals",
+     "round_code": "QF",
+     "scheduled_time": "2026-10-23T13:15:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:11.008548Z",
+      "age_seconds": 35,
+      "changing_sources_count": 2,
+      "corroborated": true,
+      "corroborated_age_seconds": 1,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        6,
+        2
+       ],
+       [
+        3,
+        2
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 1,
+      "origin": "observed",
+      "points": [
+       "15",
+       "30"
+      ],
+      "received_at": "2026-10-23T14:17:10.629650Z",
+      "sequence": 95,
+      "server": 1,
+      "sets": [
+       1,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:11.008547Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "hard",
+     "tier": "itf_w100",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "W100 Wrexham",
+     "tournament_id": "13374",
+     "updated_at": "2026-10-23T14:16:40.822725Z"
+    },
+    {
+     "court": "Stadion",
+     "created_at": "2026-10-23T11:37:45.896398Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209414,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:55:42.049003Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": "2001-03-23",
+       "country": "srb",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "backhand"
+        ],
+        "of": 5
+       },
+       "hand": "L",
+       "id": 1045,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Dusan Obradovic",
+       "ranking": 489,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "up",
+       "ranking_points": 91,
+       "ranking_status": "ranked",
+       "tour": null
+      },
+      "p2": {
+       "archive_player_id": 212919,
+       "backhand": null,
+       "birthday": "2006-10-14",
+       "country": "bih",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 4955,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Ivan Biletić",
+       "ranking": 1416,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 6,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "Round of 16",
+     "round_code": "R16",
+     "scheduled_time": "2026-10-23T13:20:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:02.360067Z",
+      "age_seconds": 44,
+      "changing_sources_count": 1,
+      "corroborated": false,
+      "corroborated_age_seconds": null,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        2
+       ],
+       [
+        3
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 1,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T14:17:02.166880Z",
+      "sequence": 42,
+      "server": 1,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:44.935951Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_m15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "M15 Bol 2",
+     "tournament_id": "11081",
+     "updated_at": "2026-10-23T14:16:40.039280Z"
+    },
+    {
+     "court": null,
+     "created_at": "2026-10-23T13:45:25.041728Z",
+     "draw": null,
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": null,
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209439,
+     "indoor": null,
+     "is_doubles": false,
+     "is_qualifying": null,
+     "live_at": "2026-10-23T13:45:25.040789Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 208057,
+       "backhand": null,
+       "birthday": "2000-10-07",
+       "country": "chi",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 8070,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Diego Fernandez Flores",
+       "ranking": 1359,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "up",
+       "ranking_points": 7,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": 105342,
+       "backhand": null,
+       "birthday": "1989-05-27",
+       "country": "hrv",
+       "data_completeness": {
+        "known": 2,
+        "missing": [
+         "backhand",
+         "hand",
+         "ranking"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 24068,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Deni Zmak",
+       "ranking": null,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": "unranked",
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": null,
+     "round_code": null,
+     "scheduled_time": "2026-10-23T13:35:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:16:38.711449Z",
+      "age_seconds": 67,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 3,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "default",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        4
+       ],
+       [
+        1
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 3,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T14:16:38.579959Z",
+      "sequence": 38,
+      "server": 1,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:39.073030Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": null,
+     "tier": "utr",
+     "tier_source": "name",
+     "tour": null,
+     "tournament": "UTR PTT Carvoeiro Men +H 07, Group A",
+     "tournament_id": null,
+     "updated_at": "2026-10-23T14:16:34.594444Z"
+    },
+    {
+     "court": "Court 6",
+     "created_at": "2026-10-22T16:26:58.314738Z",
+     "draw": "doubles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 208208,
+     "indoor": false,
+     "is_doubles": true,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:34:50.406987Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": null,
+       "data_completeness": {
+        "known": null,
+        "missing": [],
+        "note": "doubles team — per-player profile fields do not apply",
+        "of": null
+       },
+       "hand": null,
+       "id": 41943,
+       "is_doubles_team": true,
+       "itf_ranking": null,
+       "name": "Fryer / McKay",
+       "ranking": null,
+       "ranking_checked_at": null,
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": null,
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": null,
+       "data_completeness": {
+        "known": null,
+        "missing": [],
+        "note": "doubles team — per-player profile fields do not apply",
+        "of": null
+       },
+       "hand": null,
+       "id": 41949,
+       "is_doubles_team": true,
+       "itf_ranking": null,
+       "name": "Nirundorn / Pablo Perez Ramos",
+       "ranking": null,
+       "ranking_checked_at": null,
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": null,
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "M25 Redbridge - Final",
+     "round_code": "F",
+     "scheduled_time": "2026-10-23T13:40:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:35.088636Z",
+      "age_seconds": 11,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 3,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "match_tiebreak"
+      },
+      "games": [
+       [
+        6,
+        0
+       ],
+       [
+        4,
+        0
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 2,
+      "origin": "observed",
+      "points": [
+       "0",
+       "30"
+      ],
+      "received_at": "2026-10-23T14:17:35.020080Z",
+      "sequence": 60,
+      "server": 2,
+      "sets": [
+       1,
+       0
+      ],
+      "sources_count": 3,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:43.563230Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "hard",
+     "tier": "itf_m25",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "M25 Redbridge (United Kingdom)",
+     "tournament_id": "14782",
+     "updated_at": "2026-10-23T14:16:42.430385Z"
+    },
+    {
+     "court": "Court 2",
+     "created_at": "2026-10-22T15:22:06.244027Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "women",
+     "has_analysis": false,
+     "has_market": true,
+     "id": 208191,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:42:37.092744Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": "1999-07-12",
+       "country": "esp",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 1301,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Angela Fita Boluda",
+       "ranking": 222,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 349,
+       "ranking_status": "ranked",
+       "tour": null
+      },
+      "p2": {
+       "archive_player_id": 220827,
+       "backhand": null,
+       "birthday": "2003-01-03",
+       "country": "ita",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 2922,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Laura Mair",
+       "ranking": 443,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 131,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "W35 Loule - Quarter-finals",
+     "round_code": "QF",
+     "scheduled_time": "2026-10-23T13:45:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:34.539608Z",
+      "age_seconds": 11,
+      "changing_sources_count": 2,
+      "corroborated": true,
+      "corroborated_age_seconds": 2,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        0,
+        1
+       ],
+       [
+        6,
+        1
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 2,
+      "origin": "observed",
+      "points": [
+       "0",
+       "30"
+      ],
+      "received_at": "2026-10-23T14:17:34.434014Z",
+      "sequence": 54,
+      "server": 1,
+      "sets": [
+       0,
+       1
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:34.539604Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "hard",
+     "tier": "itf_w35",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "W35 Loule",
+     "tournament_id": "11920",
+     "updated_at": "2026-10-23T14:16:40.728371Z"
+    },
+    {
+     "court": null,
+     "created_at": "2026-10-23T14:05:59.320080Z",
+     "draw": null,
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": null,
+     "has_analysis": false,
+     "has_market": false,
+     "id": 209440,
+     "indoor": null,
+     "is_doubles": false,
+     "is_qualifying": null,
+     "live_at": "2026-10-23T14:05:59.319408Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 213537,
+       "backhand": null,
+       "birthday": "1999-10-24",
+       "country": "esp",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 1992,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Jose Dominguez Alonso",
+       "ranking": 1581,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 4,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": "gbr",
+       "data_completeness": {
+        "known": 1,
+        "missing": [
+         "backhand",
+         "birthday",
+         "hand",
+         "ranking"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 11348,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Harrison McElnea",
+       "ranking": null,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": "unranked",
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": null,
+     "round_code": null,
+     "scheduled_time": "2026-10-23T13:50:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:16:50.229029Z",
+      "age_seconds": 56,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 3,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "default",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        2
+       ],
+       [
+        1
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 3,
+      "origin": "observed",
+      "points": [
+       "30",
+       "15"
+      ],
+      "received_at": "2026-10-23T14:16:50.179929Z",
+      "sequence": 14,
+      "server": 2,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:39.030431Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": null,
+     "tier": "utr",
+     "tier_source": "name",
+     "tour": null,
+     "tournament": "UTR PTT Carvoeiro Men +H 07, Group A",
+     "tournament_id": null,
+     "updated_at": "2026-10-23T14:16:34.610371Z"
+    },
+    {
+     "court": "Court 1",
+     "created_at": "2026-10-22T16:27:02.864697Z",
+     "draw": "doubles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "women",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 208211,
+     "indoor": false,
+     "is_doubles": true,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:51:24.105995Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": null,
+       "data_completeness": {
+        "known": null,
+        "missing": [],
+        "note": "doubles team — per-player profile fields do not apply",
+        "of": null
+       },
+       "hand": null,
+       "id": 42024,
+       "is_doubles_team": true,
+       "itf_ranking": null,
+       "name": "de Zeeuw / Isis-Louise Van den Broek",
+       "ranking": null,
+       "ranking_checked_at": null,
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": null,
+       "tour": null
+      },
+      "p2": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": null,
+       "data_completeness": {
+        "known": null,
+        "missing": [],
+        "note": "doubles team — per-player profile fields do not apply",
+        "of": null
+       },
+       "hand": null,
+       "id": 42028,
+       "is_doubles_team": true,
+       "itf_ranking": null,
+       "name": "Adeshina / Zanolini",
+       "ranking": null,
+       "ranking_checked_at": null,
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": null,
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "W35 Loule - Semi-finals",
+     "round_code": "SF",
+     "scheduled_time": "2026-10-23T13:55:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:42.271660Z",
+      "age_seconds": 4,
+      "changing_sources_count": 1,
+      "corroborated": false,
+      "corroborated_age_seconds": null,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "match_tiebreak"
+      },
+      "games": [
+       [
+        4
+       ],
+       [
+        3
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 4,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T14:17:42.030618Z",
+      "sequence": 40,
+      "server": 2,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:42.271659Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "hard",
+     "tier": "itf_w35",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "W35 Loule",
+     "tournament_id": "11921",
+     "updated_at": "2026-10-23T14:16:43.108487Z"
+    },
+    {
+     "court": "Court BILLOD-MOREL",
+     "created_at": "2026-10-22T18:22:40.806750Z",
+     "draw": "doubles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 208242,
+     "indoor": false,
+     "is_doubles": true,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:45:24.003725Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": null,
+       "data_completeness": {
+        "known": null,
+        "missing": [],
+        "note": "doubles team — per-player profile fields do not apply",
+        "of": null
+       },
+       "hand": null,
+       "id": 40697,
+       "is_doubles_team": true,
+       "itf_ranking": null,
+       "name": "Beaven / Zeuch",
+       "ranking": null,
+       "ranking_checked_at": null,
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": null,
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": null,
+       "country": null,
+       "data_completeness": {
+        "known": null,
+        "missing": [],
+        "note": "doubles team — per-player profile fields do not apply",
+        "of": null
+       },
+       "hand": null,
+       "id": 42348,
+       "is_doubles_team": true,
+       "itf_ranking": null,
+       "name": "Nagel / Visker",
+       "ranking": null,
+       "ranking_checked_at": null,
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": null,
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "M25 Sarreguemines - Final",
+     "round_code": "F",
+     "scheduled_time": "2026-10-23T13:55:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:39.672062Z",
+      "age_seconds": 6,
+      "changing_sources_count": 1,
+      "corroborated": false,
+      "corroborated_age_seconds": null,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "match_tiebreak"
+      },
+      "games": [
+       [
+        4
+       ],
+       [
+        5
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 6,
+      "origin": "observed",
+      "points": [
+       "30",
+       "0"
+      ],
+      "received_at": "2026-10-23T14:17:39.529476Z",
+      "sequence": 52,
+      "server": 1,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:39.672058Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "grass",
+     "tier": "itf_m25",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "M25 Sarreguemines",
+     "tournament_id": "4847",
+     "updated_at": "2026-10-23T14:16:42.465185Z"
+    },
+    {
+     "court": "Court 1",
+     "created_at": "2026-10-22T22:29:57.301643Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "women",
+     "has_analysis": false,
+     "has_market": true,
+     "id": 208279,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T14:15:41.704559Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 204419,
+       "backhand": 2,
+       "birthday": "1994-04-13",
+       "country": "mex",
+       "data_completeness": {
+        "known": 5,
+        "missing": [],
+        "of": 5
+       },
+       "hand": "L",
+       "id": 257,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Ana Sofia Sanchez",
+       "ranking": 347,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 186,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      },
+      "p2": {
+       "archive_player_id": null,
+       "backhand": 2,
+       "birthday": "2007-03-02",
+       "country": "col",
+       "data_completeness": {
+        "known": 5,
+        "missing": [],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 273,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Arias Valentina Mediorreal",
+       "ranking": 850,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "up",
+       "ranking_points": 34,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "W15 Campina Grande - Quarter-finals",
+     "round_code": "QF",
+     "scheduled_time": "2026-10-23T14:00:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:23.084873Z",
+      "age_seconds": 23,
+      "changing_sources_count": 1,
+      "corroborated": false,
+      "corroborated_age_seconds": null,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        0
+       ],
+       [
+        0
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 6,
+      "origin": "observed",
+      "points": [
+       "30",
+       "30"
+      ],
+      "received_at": "2026-10-23T14:17:22.938941Z",
+      "sequence": 6,
+      "server": 1,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 1,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:39.630481Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_w15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "W15 Campina Grande (Brazil)",
+     "tournament_id": "14784",
+     "updated_at": "2026-10-23T14:16:40.966536Z"
+    },
+    {
+     "court": "Court 2",
+     "created_at": "2026-10-22T22:29:57.193646Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "women",
+     "has_analysis": false,
+     "has_market": true,
+     "id": 208278,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T14:11:19.926964Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 219625,
+       "backhand": 2,
+       "birthday": "1999-03-13",
+       "country": "chi",
+       "data_completeness": {
+        "known": 5,
+        "missing": [],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 740,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Fernanda Labrana",
+       "ranking": 484,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "up",
+       "ranking_points": 115,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      },
+      "p2": {
+       "archive_player_id": 211903,
+       "backhand": 1,
+       "birthday": "1996-08-16",
+       "country": "chi",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 40482,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Barbara Gatica",
+       "ranking": 211,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": "unranked",
+       "tour": "wta"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "W15 Campina Grande - Quarter-finals",
+     "round_code": "QF",
+     "scheduled_time": "2026-10-23T14:00:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:26.031205Z",
+      "age_seconds": 20,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 7,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        0
+       ],
+       [
+        1
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 3,
+      "origin": "observed",
+      "points": [
+       "30",
+       "30"
+      ],
+      "received_at": "2026-10-23T14:17:25.769062Z",
+      "sequence": 11,
+      "server": 1,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:42.889310Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_w15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "W15 Campina Grande (Brazil)",
+     "tournament_id": "14784",
+     "updated_at": "2026-10-23T14:16:40.940450Z"
+    },
+    {
+     "court": "Central",
+     "created_at": "2026-10-22T16:27:14.264148Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "women",
+     "has_analysis": false,
+     "has_market": true,
+     "id": 208219,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:55:42.158958Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 211316,
+       "backhand": null,
+       "birthday": "1996-09-26",
+       "country": "fra",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "backhand"
+        ],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 661,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Jessika Ponchet",
+       "ranking": 310,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 225,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      },
+      "p2": {
+       "archive_player_id": 215807,
+       "backhand": null,
+       "birthday": "2001-01-20",
+       "country": "fra",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "backhand"
+        ],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 792,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Manon Leonard",
+       "ranking": 410,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "up",
+       "ranking_points": 147,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "W50 Cherbourg-en-Cotentin - Quarter-finals",
+     "round_code": "QF",
+     "scheduled_time": "2026-10-23T14:00:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:43.573886Z",
+      "age_seconds": 2,
+      "changing_sources_count": 2,
+      "corroborated": true,
+      "corroborated_age_seconds": 2,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        1
+       ],
+       [
+        2
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 2,
+      "origin": "observed",
+      "points": [
+       "30",
+       "40"
+      ],
+      "received_at": "2026-10-23T14:17:43.314159Z",
+      "sequence": 41,
+      "server": 2,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 3,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:43.573886Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "hard",
+     "tier": "itf_w50",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "W50 Cherbourg-en-Cotentin",
+     "tournament_id": "11880",
+     "updated_at": "2026-10-23T14:16:40.798929Z"
+    },
+    {
+     "court": "Court 2",
+     "created_at": "2026-10-22T22:29:56.386947Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": false,
+     "has_market": true,
+     "id": 208275,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T14:15:25.505893Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": null,
+       "backhand": null,
+       "birthday": "2003-10-04",
+       "country": "bra",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 1988,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Lorenzo Santos Gava Kaua",
+       "ranking": 1657,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "up",
+       "ranking_points": 3,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": 214148,
+       "backhand": null,
+       "birthday": "2009-01-30",
+       "country": "bra",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 5541,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Leonardo Storck Franca",
+       "ranking": 1994,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 1,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "M15 Maceio - Quarter-finals",
+     "round_code": "QF",
+     "scheduled_time": "2026-10-23T14:00:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:42.855717Z",
+      "age_seconds": 3,
+      "changing_sources_count": 1,
+      "corroborated": false,
+      "corroborated_age_seconds": null,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        0
+       ],
+       [
+        0
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 3,
+      "origin": "observed",
+      "points": [
+       "40",
+       "30"
+      ],
+      "received_at": "2026-10-23T14:17:42.777387Z",
+      "sequence": 7,
+      "server": 1,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 2,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:42.855716Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": "itf_m15",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "M15 Maceio (Brazil)",
+     "tournament_id": "14786",
+     "updated_at": "2026-10-23T14:16:39.857520Z"
+    },
+    {
+     "court": null,
+     "created_at": "2026-10-21T15:21:46.304206Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": true,
+     "has_market": true,
+     "id": 207819,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T14:05:27.283234Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 210012,
+       "backhand": 2,
+       "birthday": "2004-04-06",
+       "country": "por",
+       "data_completeness": {
+        "known": 5,
+        "missing": [],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 184,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Henrique Rocha",
+       "ranking": 105,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 582,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": 209284,
+       "backhand": null,
+       "birthday": "2003-07-09",
+       "country": "den",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "backhand"
+        ],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 203,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Elmer Moller",
+       "ranking": 163,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 353,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "Lisbon - Quarter-finals",
+     "round_code": "QF",
+     "scheduled_time": "2026-10-23T14:05:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:43.570173Z",
+      "age_seconds": 2,
+      "changing_sources_count": 1,
+      "corroborated": true,
+      "corroborated_age_seconds": 2,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "default",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        1
+       ],
+       [
+        1
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 2,
+      "origin": "observed",
+      "points": [
+       "40",
+       "AD"
+      ],
+      "received_at": "2026-10-23T14:17:43.253407Z",
+      "sequence": 22,
+      "server": 1,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 3,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:43.570170Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "clay",
+     "tier": null,
+     "tier_source": null,
+     "tour": "challenger",
+     "tournament": "Lisbon",
+     "tournament_id": "2756",
+     "updated_at": "2026-10-23T14:16:37.528251Z"
+    },
+    {
+     "court": null,
+     "created_at": "2026-10-22T13:31:50.255459Z",
+     "draw": "singles",
+     "event_status": null,
+     "event_status_updated_at": null,
+     "format": "BO3",
+     "gender": "men",
+     "has_analysis": true,
+     "has_market": true,
+     "id": 208138,
+     "indoor": true,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-23T13:55:42.223668Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 208103,
+       "backhand": 2,
+       "birthday": "2001-11-08",
+       "country": "cze",
+       "data_completeness": {
+        "known": 5,
+        "missing": [],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 22,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Jiri Lehecka",
+       "ranking": 20,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 2235,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      },
+      "p2": {
+       "archive_player_id": 134868,
+       "backhand": null,
+       "birthday": "1996-07-02",
+       "country": "ned",
+       "data_completeness": {
+        "known": 4,
+        "missing": [
+         "backhand"
+        ],
+        "of": 5
+       },
+       "hand": "R",
+       "id": 512,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Tallon Griekspoor",
+       "ranking": 60,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "down",
+       "ranking_points": 885,
+       "ranking_status": "ranked",
+       "tour": "atp"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "ATP Brussels - Quarter-finals",
+     "round_code": "QF",
+     "scheduled_time": "2026-10-23T14:10:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T14:17:39.673838Z",
+      "age_seconds": 6,
+      "changing_sources_count": 2,
+      "corroborated": true,
+      "corroborated_age_seconds": 5,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "default",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        0
+       ],
+       [
+        1
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 5,
+      "origin": "observed",
+      "points": [
+       "30",
+       "30"
+      ],
+      "received_at": "2026-10-23T14:17:39.482487Z",
+      "sequence": 12,
+      "server": 1,
+      "sets": [
+       0,
+       0
+      ],
+      "sources_count": 3,
+      "stale": false,
+      "timestamp": "2026-10-23T14:17:39.673835Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "hard",
+     "tier": null,
+     "tier_source": null,
+     "tour": "atp",
+     "tournament": "Brussels",
+     "tournament_id": "3669",
+     "updated_at": "2026-10-23T14:16:37.204965Z"
+    },
+    {
+     "court": "Court 4",
+     "created_at": "2026-10-22T21:58:15.706688Z",
+     "draw": "singles",
+     "event_status": "Interrupted",
+     "event_status_updated_at": "2026-10-23T01:03:07.725587Z",
+     "format": "BO3",
+     "gender": "women",
+     "has_analysis": false,
+     "has_market": false,
+     "id": 208268,
+     "indoor": false,
+     "is_doubles": false,
+     "is_qualifying": false,
+     "live_at": "2026-10-22T23:42:30.983467Z",
+     "outcome": null,
+     "players": {
+      "p1": {
+       "archive_player_id": 221220,
+       "backhand": null,
+       "birthday": "2001-02-01",
+       "country": "usa",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 5068,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Lea Ma",
+       "ranking": 321,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": "up",
+       "ranking_points": 215,
+       "ranking_status": "ranked",
+       "tour": "wta"
+      },
+      "p2": {
+       "archive_player_id": 206292,
+       "backhand": null,
+       "birthday": "1995-09-11",
+       "country": "ind",
+       "data_completeness": {
+        "known": 3,
+        "missing": [
+         "backhand",
+         "hand"
+        ],
+        "of": 5
+       },
+       "hand": null,
+       "id": 12789,
+       "is_doubles_team": false,
+       "itf_ranking": null,
+       "name": "Astra Sharma",
+       "ranking": 130,
+       "ranking_checked_at": "2026-10-23T14:11:35.026255Z",
+       "ranking_movement": null,
+       "ranking_points": null,
+       "ranking_status": "unranked",
+       "tour": "wta"
+      }
+     },
+     "result_restated_at": null,
+     "result_version": 1,
+     "round": "Round of 16",
+     "round_code": "R16",
+     "scheduled_time": "2026-10-23T17:00:00Z",
+     "score": {
+      "accepted_at": "2026-10-23T12:41:54.161884Z",
+      "age_seconds": 5752,
+      "changing_sources_count": 0,
+      "corroborated": true,
+      "corroborated_age_seconds": 3,
+      "danger": null,
+      "deciding_match_tiebreak_next": false,
+      "deciding_set": {
+       "basis": "inferred",
+       "rule": "full_set"
+      },
+      "games": [
+       [
+        1,
+        1
+       ],
+       [
+        6,
+        0
+       ]
+      ],
+      "is_tiebreak": false,
+      "observed_age_seconds": 3,
+      "origin": "observed",
+      "points": [
+       "0",
+       "0"
+      ],
+      "received_at": "2026-10-23T12:41:51.995391Z",
+      "sequence": 79,
+      "server": 2,
+      "sets": [
+       0,
+       1
+      ],
+      "sources_count": 2,
+      "stale": true,
+      "timestamp": "2026-10-23T14:17:42.031835Z",
+      "win_probability_meta": null,
+      "win_probability_p1": null,
+      "win_probability_p1_model": null
+     },
+     "status": "live",
+     "surface": "hard",
+     "tier": "itf_w35",
+     "tier_source": "name",
+     "tour": "itf",
+     "tournament": "W35 Bakersfield, CA",
+     "tournament_id": "11846",
+     "updated_at": "2026-10-23T14:16:40.877995Z"
+    }
+   ],
+   "meta": {
+    "count": 29,
+    "has_more": false,
+    "limit": 200,
+    "offset": 0,
+    "total": 29
+   }
+  }
+ }
+}

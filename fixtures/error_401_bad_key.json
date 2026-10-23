@@ -1,0 +1,19 @@
+{
+ "source": "recorded from the live API on 2026-10-23",
+ "request": {
+  "method": "GET",
+  "path": "/matches?status=live&limit=1",
+  "auth": "bad"
+ },
+ "response": {
+  "status": 401,
+  "headers": {
+   "x-ratelimit-limit": "",
+   "x-ratelimit-remaining": "",
+   "x-ratelimit-reset": ""
+  },
+  "body": {
+   "error": "unauthorized"
+  }
+ }
+}

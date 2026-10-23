@@ -1,0 +1,283 @@
+{
+ "source": "recorded from the live API on 2026-10-23",
+ "request": {
+  "method": "GET",
+  "path": "/players?search=sinner&limit=10",
+  "auth": "header"
+ },
+ "response": {
+  "status": 200,
+  "headers": {
+   "x-ratelimit-limit": "",
+   "x-ratelimit-remaining": "",
+   "x-ratelimit-reset": ""
+  },
+  "body": {
+   "data": [
+    {
+     "archive_player_id": 206173,
+     "backhand": null,
+     "birthday": "2001-08-16",
+     "country": "ita",
+     "data_completeness": {
+      "known": 4,
+      "missing": [
+       "backhand"
+      ],
+      "of": 5
+     },
+     "hand": "R",
+     "id": 34,
+     "is_doubles_team": false,
+     "itf_ranking": null,
+     "name": "Jannik Sinner",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": 1,
+     "ranking_checked_at": "2026-10-23T12:41:37.986850Z",
+     "ranking_movement": "same",
+     "ranking_points": 10950,
+     "ranking_status": "ranked",
+     "tour": "atp"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 13463,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Sinner / Sonego",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "atp"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 18019,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Opelka / Sinner",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "atp"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 18338,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Schwartzman / Sinner",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "atp"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 18831,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Alex De Minaur / Sinner",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "atp"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": 0,
+      "missing": [
+       "backhand",
+       "birthday",
+       "country",
+       "hand",
+       "ranking"
+      ],
+      "of": 5
+     },
+     "hand": null,
+     "id": 13461,
+     "is_doubles_team": false,
+     "itf_ranking": null,
+     "name": "Sinner",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": "unverified",
+     "tour": "atp"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 24898,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Draper / Sinner",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "atp"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 28767,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Berrettini / Sinner",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "atp"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 34194,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Bergs / Sinner",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "atp"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 21314,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Hurkacz / Sinner",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "atp"
+    }
+   ],
+   "meta": {
+    "count": 10,
+    "has_more": false,
+    "limit": 10,
+    "offset": 0,
+    "total": 10
+   }
+  }
+ }
+}

@@ -1,0 +1,44 @@
+# Runs every test offline against the recorded fixtures. No API key is used.
+#
+# In this repository, with the solutions present, CI checks that every
+# solution passes and every starter still fails. In a class copy where the
+# teacher has deleted exercises/*/solutions, the same file grades the
+# students' starters instead, so correct work turns the pipeline green.
+
+stages:
+  - test
+
+variables:
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"
+  PIP_NO_CACHE_DIR: "1"
+
+python:
+  stage: test
+  image: python:${PYTHON_VERSION}-slim
+  parallel:
+    matrix:
+      - PYTHON_VERSION: ["3.11", "3.13"]
+  script:
+    - pip install --quiet "pytest>=8,<10"
+    - |
+      if ls -d exercises/*/solutions > /dev/null 2>&1; then
+        python scripts/run_python_tests.py --solutions
+        python scripts/check_starters_fail.py --python
+      else
+        python scripts/run_python_tests.py
+      fi
+
+javascript:
+  stage: test
+  image: node:${NODE_VERSION}-slim
+  parallel:
+    matrix:
+      - NODE_VERSION: ["22", "24"]
+  script:
+    - |
+      if ls -d exercises/*/solutions > /dev/null 2>&1; then
+        node scripts/run-js-tests.mjs --solutions
+        node scripts/check-starters-fail.mjs
+      else
+        node scripts/run-js-tests.mjs
+      fi

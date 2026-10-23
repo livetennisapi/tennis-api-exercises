@@ -1,0 +1,19 @@
+{
+ "source": "built by hand from openapi.yaml 1.13.68, because the recording key was not on the FREE plan. Codes and field names follow the spec. Values the spec does not fix are stand-ins.",
+ "request": {
+  "method": "GET",
+  "path": "/rankings?system=atp",
+  "auth": "header"
+ },
+ "response": {
+  "status": 403,
+  "headers": {
+   "x-ratelimit-limit": "30",
+   "x-ratelimit-remaining": "28",
+   "x-ratelimit-reset": "1792764960"
+  },
+  "body": {
+   "error": "upgrade_required"
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "tennis-api-exercises",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Graded coding exercises for working with a real JSON API, using the free plan of Live Tennis API.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node scripts/run-js-tests.mjs",
+    "test:solutions": "node scripts/run-js-tests.mjs --solutions",
+    "test:smoke": "node scripts/run-js-tests.mjs --smoke"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/livetennisapi/tennis-api-exercises.git"
+  },
+  "homepage": "https://gitlab.com/livetennisapi/tennis-api-exercises"
+}

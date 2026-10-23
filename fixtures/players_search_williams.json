@@ -1,0 +1,283 @@
+{
+ "source": "recorded from the live API on 2026-10-23",
+ "request": {
+  "method": "GET",
+  "path": "/players?search=williams&limit=10",
+  "auth": "header"
+ },
+ "response": {
+  "status": 200,
+  "headers": {
+   "x-ratelimit-limit": "",
+   "x-ratelimit-remaining": "",
+   "x-ratelimit-reset": ""
+  },
+  "body": {
+   "data": [
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": "1980-06-17",
+     "country": "usa",
+     "data_completeness": {
+      "known": 3,
+      "missing": [
+       "backhand",
+       "hand"
+      ],
+      "of": 5
+     },
+     "hand": null,
+     "id": 986,
+     "is_doubles_team": false,
+     "itf_ranking": null,
+     "name": "Venus Williams",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": 599,
+     "ranking_checked_at": "2026-10-23T12:41:37.986850Z",
+     "ranking_movement": "up",
+     "ranking_points": 75,
+     "ranking_status": "ranked",
+     "tour": "wta"
+    },
+    {
+     "archive_player_id": 210295,
+     "backhand": null,
+     "birthday": "2005-06-17",
+     "country": "usa",
+     "data_completeness": {
+      "known": 4,
+      "missing": [
+       "backhand"
+      ],
+      "of": 5
+     },
+     "hand": "R",
+     "id": 1932,
+     "is_doubles_team": false,
+     "itf_ranking": null,
+     "name": "Cooper Williams",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": 604,
+     "ranking_checked_at": "2026-10-23T12:41:37.986850Z",
+     "ranking_movement": "down",
+     "ranking_points": 61,
+     "ranking_status": "unranked",
+     "tour": "atp"
+    },
+    {
+     "archive_player_id": 200033,
+     "backhand": null,
+     "birthday": "1981-09-26",
+     "country": "usa",
+     "data_completeness": {
+      "known": 3,
+      "missing": [
+       "backhand",
+       "hand"
+      ],
+      "of": 5
+     },
+     "hand": null,
+     "id": 8283,
+     "is_doubles_team": false,
+     "itf_ranking": null,
+     "name": "Serena Williams",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": 1194,
+     "ranking_checked_at": "2026-10-23T12:41:37.986850Z",
+     "ranking_movement": "down",
+     "ranking_points": 10,
+     "ranking_status": "ranked",
+     "tour": "wta"
+    },
+    {
+     "archive_player_id": 211563,
+     "backhand": null,
+     "birthday": "2003-12-01",
+     "country": "ger",
+     "data_completeness": {
+      "known": 4,
+      "missing": [
+       "backhand"
+      ],
+      "of": 5
+     },
+     "hand": "R",
+     "id": 4865,
+     "is_doubles_team": false,
+     "itf_ranking": null,
+     "name": "Aaron James Williams",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": 1994,
+     "ranking_checked_at": "2026-10-23T12:41:37.986850Z",
+     "ranking_movement": "down",
+     "ranking_points": 1,
+     "ranking_status": "ranked",
+     "tour": "atp"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 12986,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Diana Shnaider / Williams",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "wta"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 36024,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Klys / Williams",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "atp"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 8284,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Juan Sebastian Gomez / Williams",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": null
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 8785,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Muchova / Serena Williams",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "wta"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 1840,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Hailey Baptiste / Venus Williams",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "wta"
+    },
+    {
+     "archive_player_id": null,
+     "backhand": null,
+     "birthday": null,
+     "country": null,
+     "data_completeness": {
+      "known": null,
+      "missing": [],
+      "note": "doubles team — per-player profile fields do not apply",
+      "of": null
+     },
+     "hand": null,
+     "id": 8872,
+     "is_doubles_team": true,
+     "itf_ranking": null,
+     "name": "Muchova / S. Williams",
+     "profile_restated_at": null,
+     "profile_version": 1,
+     "ranking": null,
+     "ranking_checked_at": null,
+     "ranking_movement": null,
+     "ranking_points": null,
+     "ranking_status": null,
+     "tour": "wta"
+    }
+   ],
+   "meta": {
+    "count": 10,
+    "has_more": true,
+    "limit": 10,
+    "offset": 0,
+    "total": 64
+   }
+  }
+ }
+}

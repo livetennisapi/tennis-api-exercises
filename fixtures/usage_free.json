@@ -1,0 +1,45 @@
+{
+ "source": "built by hand from openapi.yaml 1.13.68, because the recording key was not on the FREE plan. Codes and field names follow the spec. Values the spec does not fix are stand-ins.",
+ "request": {
+  "method": "GET",
+  "path": "/usage",
+  "auth": "header"
+ },
+ "response": {
+  "status": 200,
+  "headers": {
+   "x-ratelimit-limit": "30",
+   "x-ratelimit-remaining": "29",
+   "x-ratelimit-reset": "1792764960"
+  },
+  "body": {
+   "principal": "key:0000",
+   "tier": "free",
+   "base_tier": "free",
+   "tier_expires_at": null,
+   "channel": "key",
+   "limits": {
+    "per_minute": 30,
+    "per_day": 100
+   },
+   "today": {
+    "calls": 37,
+    "errors": 5,
+    "remaining_day": 68
+   },
+   "history": [
+    {
+     "day": "2026-10-22",
+     "calls": 21,
+     "errors": 6
+    },
+    {
+     "day": "2026-10-23",
+     "calls": 37,
+     "errors": 5
+    }
+   ],
+   "as_of": "2026-10-23T14:14:19Z"
+  }
+ }
+}
