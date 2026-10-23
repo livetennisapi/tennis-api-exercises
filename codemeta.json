@@ -1,0 +1,42 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Tennis API exercises",
+  "description": "Eight graded exercises in Python and JavaScript that teach students to work with a real JSON API. Students handle nested data, errors, rate limits and a daily request quota. Tests run offline against API responses from Live Tennis API, most recorded live and a few built from its specification.",
+  "version": "1.0.0",
+  "dateCreated": "2026-10-23",
+  "datePublished": "2026-10-23",
+  "license": "https://spdx.org/licenses/MIT",
+  "codeRepository": "https://gitlab.com/livetennisapi/tennis-api-exercises",
+  "issueTracker": "https://gitlab.com/livetennisapi/tennis-api-exercises/-/issues",
+  "programmingLanguage": [
+    "Python",
+    "JavaScript"
+  ],
+  "runtimePlatform": [
+    "Python 3.11",
+    "Node.js 22"
+  ],
+  "applicationCategory": "Education",
+  "keywords": [
+    "teaching",
+    "programming exercises",
+    "REST API",
+    "JSON",
+    "Python",
+    "JavaScript",
+    "tennis",
+    "sports data"
+  ],
+  "author": [
+    {
+      "@type": "Organization",
+      "name": "Live Tennis API",
+      "url": "https://livetennisapi.com",
+      "email": "hello@livetennisapi.com"
+    }
+  ],
+  "relatedLink": [
+    "https://docs.livetennisapi.com"
+  ]
+}

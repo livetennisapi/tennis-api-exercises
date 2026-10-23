@@ -9,13 +9,14 @@ authors:
     website: "https://livetennisapi.com"
     email: "hello@livetennisapi.com"
 repository-code: "https://gitlab.com/livetennisapi/tennis-api-exercises"
-url: "https://docs.livetennisapi.com"
+url: "https://gitlab.com/livetennisapi/tennis-api-exercises"
 license: MIT
 abstract: >-
-  Eight graded exercises in Python and JavaScript that teach students to call
-  a real JSON API, read nested data, handle errors and rate limits, and stay
-  inside a daily request quota. Tests run offline against recorded responses
-  from the free plan of Live Tennis API. Code is MIT. Fixtures are CC BY 4.0.
+  Eight graded exercises in Python and JavaScript that teach students to work
+  with a real JSON API. Students handle nested data, errors, rate limits and a
+  daily request quota. Tests run offline against API responses from Live Tennis
+  API, most recorded live and a few built from its specification. Code is MIT.
+  Fixtures are CC BY 4.0.
 keywords:
   - teaching
   - programming exercises
