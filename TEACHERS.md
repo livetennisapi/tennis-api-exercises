@@ -57,7 +57,7 @@ node --test exercises/03-break-points/js/break_points.test.mjs
 
 The tests replay recorded responses from `fixtures/`, so they need no network and no key. They pass only when the student's code is right.
 
-To check that your copy is sound, run `make check`. It runs every solution in both languages and confirms that every starter still fails, for the right reason. The GitLab CI file does the same.
+To check that your copy is sound, run `make check`. It runs every solution in both languages and confirms that every starter still fails, for the right reason. The CI files do the same: `.github/workflows/test.yml` on GitHub and `.gitlab-ci.yml` on GitLab.
 
 To check that the tests are strong enough, run `make mutants`. It applies over 100 plausible wrong solutions, many taken from the common mistakes below, and confirms that the tests reject every one. If you add a test or change a solution, run it again.
 
@@ -66,12 +66,12 @@ To check that the tests are strong enough, run `make mutants`. It applies over 1
 The `solutions/` folders sit next to the starters. For graded work, give students a copy without them:
 
 ```sh
-git clone https://gitlab.com/livetennisapi/tennis-api-exercises.git class-copy
+git clone https://github.com/livetennisapi/tennis-api-exercises.git class-copy
 cd class-copy
 rm -rf exercises/*/solutions
 ```
 
-Leave `.gitlab-ci.yml` as it is. When it finds no `solutions` folders, it grades the starters instead of checking the solutions. A student's pipeline goes green once every test in both languages passes. If you only teach one language, delete the other job.
+Leave `.github/workflows/test.yml` as it is. When it finds no `solutions` folders, it grades the starters instead of checking the solutions. A student's run goes green once every test in both languages passes. If you only teach one language, delete the other job. A class on GitLab uses `.gitlab-ci.yml`, which works the same way.
 
 The live smoke test also works in a class copy. Without the solutions it runs the student's own starters against the real API, so use it only once their code passes the offline tests.
 

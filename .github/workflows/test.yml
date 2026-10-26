@@ -1,0 +1,59 @@
+# Runs every test offline against the recorded fixtures. No API key is used.
+#
+# The same checks as .gitlab-ci.yml. In this repository, with the solutions
+# present, CI checks that every solution passes and every starter still fails.
+# In a class copy where the teacher has deleted exercises/*/solutions, the same
+# file grades the students' starters instead, so correct work turns the run green.
+
+name: test
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.13"]
+    env:
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
+      PIP_NO_CACHE_DIR: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install --quiet "pytest>=8,<10"
+      - run: |
+          if ls -d exercises/*/solutions > /dev/null 2>&1; then
+            python scripts/run_python_tests.py --solutions
+            python scripts/check_starters_fail.py --python
+          else
+            python scripts/run_python_tests.py
+          fi
+
+  javascript:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ["22", "24"]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: |
+          if ls -d exercises/*/solutions > /dev/null 2>&1; then
+            node scripts/run-js-tests.mjs --solutions
+            node scripts/check-starters-fail.mjs
+          else
+            node scripts/run-js-tests.mjs
+          fi

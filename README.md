@@ -118,6 +118,6 @@ The code is under the [MIT licence](LICENSE). The recorded responses in `fixture
 
 - Official Python client: [livetennisapi on PyPI](https://pypi.org/project/livetennisapi/)
 - Official JavaScript client: [livetennisapi on npm](https://www.npmjs.com/package/livetennisapi)
-- Source for this set: <https://gitlab.com/livetennisapi/tennis-api-exercises>
+- Source for this set: <https://github.com/livetennisapi/tennis-api-exercises>
 
 The exercises use plain HTTP on purpose, so students see every header and status code. The clients are the better choice once they have.
