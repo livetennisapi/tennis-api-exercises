@@ -1,7 +1,7 @@
 # Runs every test offline against the recorded fixtures. No API key is used.
 #
-# The same checks as .gitlab-ci.yml. In this repository, with the solutions
-# present, CI checks that every solution passes and every starter still fails.
+# In this repository, with the solutions present, CI checks that every
+# solution passes and every starter still fails.
 # In a class copy where the teacher has deleted exercises/*/solutions, the same
 # file grades the students' starters instead, so correct work turns the run green.
 
