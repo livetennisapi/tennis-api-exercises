@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/livetennisapi/tennis-api-exercises.git"
+    "url": "git+https://github.com/livetennisapi/tennis-api-exercises.git"
   },
-  "homepage": "https://gitlab.com/livetennisapi/tennis-api-exercises"
+  "homepage": "https://github.com/livetennisapi/tennis-api-exercises"
 }

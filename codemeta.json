@@ -7,8 +7,8 @@
   "dateCreated": "2026-10-23",
   "datePublished": "2026-10-23",
   "license": "https://spdx.org/licenses/MIT",
-  "codeRepository": "https://gitlab.com/livetennisapi/tennis-api-exercises",
-  "issueTracker": "https://gitlab.com/livetennisapi/tennis-api-exercises/-/issues",
+  "codeRepository": "https://github.com/livetennisapi/tennis-api-exercises",
+  "issueTracker": "https://github.com/livetennisapi/tennis-api-exercises/issues",
   "programmingLanguage": [
     "Python",
     "JavaScript"

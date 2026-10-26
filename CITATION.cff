@@ -8,8 +8,8 @@ authors:
   - name: "Live Tennis API"
     website: "https://livetennisapi.com"
     email: "hello@livetennisapi.com"
-repository-code: "https://gitlab.com/livetennisapi/tennis-api-exercises"
-url: "https://gitlab.com/livetennisapi/tennis-api-exercises"
+repository-code: "https://github.com/livetennisapi/tennis-api-exercises"
+url: "https://github.com/livetennisapi/tennis-api-exercises"
 license: MIT
 abstract: >-
   Eight graded exercises in Python and JavaScript that teach students to work
