@@ -8,7 +8,7 @@ The fixtures are licensed under [Creative Commons Attribution 4.0 International]
 
 > Tennis data: Live Tennis API (https://livetennisapi.com), CC BY 4.0.
 
-The code elsewhere in this repository is under the MIT licence. The CC BY 4.0 terms cover only the files in this folder.
+The code elsewhere in this repository is under the MIT licence. The CC BY 4.0 terms cover only the files in this folder. The full legal code is in [LICENSE](LICENSE) in this folder.
 
 ## File format
 
